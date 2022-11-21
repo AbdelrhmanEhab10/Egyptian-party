@@ -1,0 +1,138 @@
+.header
+{
+    height: 100vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.layer
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 0, 0 , .4);
+}
+nav
+{
+    height: 100%;
+    z-index: 999999999999999;
+    scroll-behavior: smooth;
+}
+.list
+{
+    height: 100%;
+}
+
+.list ul
+{
+    padding: 40px;
+    background-color: #414658;
+    height: 105%;
+    width: 250px;
+    margin-left: -250px;
+    transition: all .6s;
+}
+.active
+{
+    margin-left: 2000px;
+}
+.list li
+{
+    list-style: none;
+    padding: 10px;
+    transition: color .3s;
+}
+.list a
+{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+}
+.list li :hover 
+{
+    color: rgb(168, 61, 57, .5);
+}
+nav
+{
+    position: fixed;
+}
+.list ul span
+{
+    top: 40px;
+    right: 100px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    transition: color .1s;
+}
+.list ul span:hover
+{
+    color: rgb(168, 61, 57, .5);
+}
+.toggleNav h4
+{
+    cursor: pointer;
+    font-size: 30px;
+}
+.singersContent h4
+{
+    width: 100%;
+    background-color: #E68285;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.singersContent p
+{
+    width: 100%;
+    background-color: #CCCCCC;
+    margin: 0;
+    padding: 10px;
+}
+.info2 , .info3 , .info4 
+{
+    display: none;
+}
+.timer
+{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50%;
+}
+.layer2
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 0, 0 , .4);
+}
+.headerContent h2
+{
+    font-size: 60px;
+}
+
+.counter span
+{
+    margin: 20px;
+    padding: 60px 100px;
+    font-size: 20px;
+    border: 1px solid white;
+}
+@media screen and  (max-width : 992px) {
+
+.list ul
+{
+    padding: 20px;
+}
+.list a 
+{
+    font-size: 20px;
+}
+.counter span
+{
+    margin: 10px;
+    padding: 50px 90px;
+    font-size: 20px;
+}
+
+    
+}
